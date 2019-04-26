@@ -18,7 +18,7 @@ class Searchable3Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_searchable3)
 
-        setSupportActionBar(toolbar1)
+        setSupportActionBar(toolbar3)
         var actionBar = supportActionBar
 
        actionBar!!.title = "Searchable3Activity"

@@ -4,6 +4,8 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_searchable3.*
+import kotlinx.android.synthetic.main.toolbar_file.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        setSupportActionBar(toolbar1)
+        setSupportActionBar(id_toolbar)
         val actionBar = supportActionBar
         actionBar!!.title = "Main"
 
