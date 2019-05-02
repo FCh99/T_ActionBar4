@@ -5,6 +5,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_searchable3.*
+import kotlinx.android.synthetic.main.toolbar_file.*
 
 class Searchable3Activity : AppCompatActivity() {
 
@@ -18,7 +19,7 @@ class Searchable3Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_searchable3)
 
-        setSupportActionBar(toolbar3)
+        setSupportActionBar(id_toolbar)
         var actionBar = supportActionBar
 
        actionBar!!.title = "Searchable3Activity"

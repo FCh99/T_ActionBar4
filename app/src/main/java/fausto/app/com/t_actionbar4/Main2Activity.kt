@@ -8,6 +8,7 @@ import android.support.v7.widget.SearchView
 import android.view.Menu
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main2.*
+import kotlinx.android.synthetic.main.toolbar_file.*
 
 class Main2Activity : AppCompatActivity() {
 
@@ -15,7 +16,7 @@ class Main2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        setSupportActionBar(toolbar2)
+        setSupportActionBar(id_toolbar)   // TODO
         val actionBar = supportActionBar
         actionBar!!.title = "Main2"
 

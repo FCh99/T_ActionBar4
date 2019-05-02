@@ -8,11 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.ActionBar"
-           parent="Widget.AppCompat.Light.ActionBar">
-        <item name="android:height">@dimen/bar_height</item>
 
-    </style>
 
 
 </resources>
